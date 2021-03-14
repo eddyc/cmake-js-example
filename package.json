@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm config set cmake_js_arch x64",
+    "install": "cmake-js compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^3.1.0"
+  },
+  "devDependencies": {
+    "cmake-js": "^6.1.0"
+  }
+}
